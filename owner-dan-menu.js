@@ -1,56 +1,70 @@
 const fs = require('fs')
 
-global.namabot = "𝙼𝚎𝚕𝚕𝚒𝚊𝙵𝚛𝚒𝚜𝚔𝚊"
-global.namaowner = "𝙼𝚎𝚕𝚕𝚒𝚊𝙵𝚛𝚒𝚜𝚔𝚊"
+global.namabot = "Bot Store"
+global.namaowner = "Zeeoneofc"
 global.footer_text = "© " + namabot
 global.pp_bot = fs.readFileSync("./image/foto.jpg")
 global.qris = fs.readFileSync("./image/qris.jpg")
-global.owner = ['6281226416919','6281226416919']
+global.owner = ['62887435047326','6282193115723']
 global.sessionName = 'session'
 global.prefa = ['-_-']
-global.caption_pay = `*Qris All Pay
+global.caption_pay = `Qris All Pay
 Ovo
 Dana
 Gopay
-Dan yang lainnya.*
+
+Mau ganti payment? ketik .setpay
 `
 module.exports.helpMenu = (pushname) =>{
   return `Halo ${pushname}
 
-*「 𝗔𝗠𝗘𝗟𝗦𝗧𝗢𝗥𝗘𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 」*
-YouTube ✅ :youtube.com/@melliafriska
-Testimoni⚡: instagram.com/farrbotz.id
-\`\`\`
-╭─❒ 「 𝗔𝗠𝗘𝗟𝗦𝗧𝗢𝗥𝗘 」
-│○ owner
-│○ pay
-│○ hidetag
-│○ list
-│○ addlist
-│○ updatelist
-│○ dellist
-│○ jeda
-│○ tambah
-│○ kurang
-│○ kali
-│○ bagi
-│○ proses
-│○ done
-│○ welcome
-│○ goodbye
-│○ antiwame
-│○ antilink
-│○ open
-│○ close
-╰❒「𝙼𝚎𝚕𝚕𝚒𝚊𝙵𝚛𝚒𝚜𝚔𝚊」
+*「 FITUR BOT 」*
+
+\`\`\`• !owner
+• !addsewa
+• !delsewa
+• !ceksewa
+• !listsewa
+• !pay
+• !setpay
+• !list
+• !addlist
+• !updatelist
+• !dellist
+• !jeda
+• !tambah
+• !kurang
+• !kali
+• !bagi
+• !setproses
+• !changeproses
+• !delsetproses
+• !setdone
+• !changedone
+• !delsetdone
+• !proses
+• !done
+• !welcome
+• !goodbye
+• !setwelcome
+• !changewelcome
+• !delsetwelcome
+• !setleft
+• !changeleft
+• !delsetleft
+• !antiwame
+• !antiwame2
+• !antilink
+• !antilink2
+• !open
+• !close
+• !hidetag
 \`\`\`
 
 📝 *NOTE*: 
-SESUDAH PEMBELIAN BISA CONFIRMASI KE ADMIN STORE
-CONTACT PERSON ADMIN:
-wa.me/6281226416919 (Mell)✓
-wa.me/6289601671818 (Cia)✓
-*JIKA ADMIN YANG DIATAS SLOW RESPON BISA CHAT ADMIN RANZ😊*
-wa.me/6285880825114 (Ranz)
+Fitur nya bisa dipakai dengan atau
+tanpa prefix (simbol awalan). Sebagai contoh 
+fitur .owner (prefix)
+dan bisa juga owner (tanpa prefix)
 `
 }
